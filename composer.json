@@ -1,0 +1,26 @@
+{
+    "name": "glesys/api",
+    "type": "library",
+    "description": "GleSYS API",
+    "keywords": ["GleSYS", "api"],
+    "homepage": "http://github.com/osadi/glesys",
+    "license": "GNU General Public License v3",
+    "authors": [
+        {
+            "name": "Oskar",
+            "email": "oskar@winternet.se"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "etechnika/idna-convert": "1.0.*",
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "lib-curl": "*"
+    },
+    "autoload": {
+        "classmap": {
+            "Glesys": "src/"
+        }
+    }
+}
